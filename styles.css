@@ -1,0 +1,63 @@
+/* General Styles */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Lato', sans-serif;
+}
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    text-align: center;
+    background: url(https://media.gettyimages.com/id/185215276/es/foto/libros-antiguos-en-la-biblioteca.jpg?s=612x612&w=gi&k=20&c=g78NsfgogrqjvmVD0Eh2DjwpFdnshGaRD_zPXXyi8gc=);
+}
+.container {
+    width: 550px;
+    height: 450px;
+}
+.header {
+    background-color: #963a3a;
+    padding: 5px;
+    color: #fff;
+    font-size: 1.2rem;
+    border: 2px solid #960f0f;
+    width: 80%;
+    margin: 20px auto;
+    border-radius: 5px;
+}
+.main-content {
+    background-color: #fff;
+    padding: 50px 40px;
+    width: 100%;
+    border-radius: 15px;
+    height: 350px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+.main-content .text-area {
+    font-size: 1.2rem;
+    line-height: 1.5;
+}
+.main-content .person {
+    font-size: 1.2rem;
+    font-weight: bold;
+    margin-top: 20px;
+    color: #500606
+}
+.button-area button {
+    background-color: #963a3a;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    font-size: 1.2rem;
+    cursor: pointer;
+    margin-top: 20px;
+}
+.button-area button:hover {
+    background-color: #500606;
+}
+.button-area button:active {
+    background-color: #eb8181;
+}
